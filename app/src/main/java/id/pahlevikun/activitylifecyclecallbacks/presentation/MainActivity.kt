@@ -1,8 +1,9 @@
-package id.pahlevikun.activitylifecyclecallbacks
+package id.pahlevikun.activitylifecyclecallbacks.presentation
 
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import id.pahlevikun.activitylifecyclecallbacks.R
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
