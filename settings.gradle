@@ -1,2 +1,2 @@
-include ':app'
+include ':app', ':jotter'
 rootProject.name='Activity Lifecycle Callbacks'
