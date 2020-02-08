@@ -18,6 +18,7 @@ public class Application extends android.app.Application {
             .setActivityEventFilter(Arrays.asList(ActivityEvent.CREATE, ActivityEvent.DESTROY))
             .setFragmentEventFilter(Arrays.asList(FragmentEvent.VIEW_CREATE, FragmentEvent.PAUSE))
             .setJotterListener(new JotterListener())
-            .build();
+            .build()
+            .startListening();
     }
 }
