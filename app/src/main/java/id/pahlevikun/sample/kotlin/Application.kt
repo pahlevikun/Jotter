@@ -1,11 +1,11 @@
-package id.pahlevikun.activitylifecyclecallbacks
+package id.pahlevikun.sample.kotlin
 
 import android.app.Application
-import id.pahlevikun.activitylifecyclecallbacks.listener.ActivityLifecycleListener
-import id.pahlevikun.activitylifecyclecallbacks.listener.JotterListener
 import id.pahlevikun.jotter.Jotter
 import id.pahlevikun.jotter.event.ActivityEvent
 import id.pahlevikun.jotter.event.FragmentEvent
+import id.pahlevikun.sample.kotlin.listener.ActivityLifecycleListener
+import id.pahlevikun.sample.kotlin.listener.JotterListener
 
 class Application : Application() {
     override fun onCreate() {

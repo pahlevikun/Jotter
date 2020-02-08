@@ -1,4 +1,4 @@
-package id.pahlevikun.activitylifecyclecallbacks.listener
+package id.pahlevikun.sample.kotlin.listener
 
 import android.app.Activity
 import android.app.Application
